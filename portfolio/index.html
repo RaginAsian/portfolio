@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<style type="text/css">
+	
+body {
+
+	background-color: url("./assets/images/")
+}
+
+.jumbotron {
+  
+  width:1000px;
+  height: 350px;
+  color: white;
+  background:url("./assets/images/portfolioBG.png");
+  background-repeat: no-repeat;
+  margin:auto;
+}
+	
+#emailButton {
+
+	color: black;
+}
+#aboutMe  {
+
+	color: black;
+	height: 500px;
+	background:transparent;
+}
+
+
+
+
+#myPic {
+
+	height: 200px;
+	width: 280px;
+
+
+}
+#aboutBG  {
+
+	background:url("./assets/images/backgroundNYC.png");
+	background-repeat: no-repeat;
+	padding-left:0;
+}
+
+#logos  {
+
+	float: right;
+}
+
+ul li {
+
+	color: white;
+	list-style-type: none;
+	text-align: center;
+	font-size: 20px;
+}
+h3 {
+
+	color:white;
+}
+
+.thumbSummary {
+
+	color:white;
+
+}
+
+h2 {
+	color:white;
+	text-align:center;
+	padding-left:35px;
+}
+#aboutBlack {
+
+	color:black;
+}
+
+#video-background {
+/*  making the video fullscreen  */
+  position: fixed;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: -100;
+}
+#projectHeader {
+
+	color: white;
+	font-size: 50px;
+}
+
+.thumbnail {
+
+	background: transparent;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+
+
+}
+</style>
+
+
+
+</head>
+
+
+<body>
+
+
+
+
+
+<!--start of jumbotron-->
+
+
+<div class="jumbotron">
+  <div class="container text-center">
+  		<div class="row">
+  				<div class="col-lg-12"> 
+  					<img src="">
+				  	<h1>Jerry Aultz, Web Developer</h1>
+				  	<p ><a id="emailButton" class="btn btn-success btn-lg" href="#" role="button">Contact Me!</a></p>
+		  		</div>
+  		</div>
+  </div>
+</div>
+
+
+<hr>
+ <!--start of about page-->
+
+<div id="aboutBG" class="container">
+
+	<div class="row">
+		<div id="aboutMe" class="col-lg-12 col-lg-6">
+			<h2 id="aboutBlack">About ME!</h2>
+			<p>orem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.</p>
+<img id="myPic" src="./assets/images/myPic.png">
+
+		</div>
+	</div>
+</div>
+
+<!--end of aboutPage-->
+
+
+<hr>
+
+<div id="projectHeader" class="container-fluid text-center">Projects I'm working on!</div>
+ <!--Thumbnail header start-->
+<div></div>
+
+
+ <!-- start of thumbnail-->  
+
+ <div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="./assets/images/thumbNail.png" alt="Project Image">
+      <div class="caption">
+        <h3>Project 1</h3>
+        <p class="thumbSummary">...</p>
+        <p><a href="#" class="btn btn-success" role="button"><img src="./assets/images/github-logo.png"></a> </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="./assets/images/thumbNail.png" alt="Project Image">
+      <div class="caption">
+        <h3>Project 2</h3>
+        <p class="thumbSummary">...</p>
+        <p><a href="#" class="btn btn-success" role="button"><img src="./assets/images/github-logo.png"></a> </p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="./assets/images/thumbNail.png" alt="Project Image">
+      <div class="caption">
+        <h3>Project 3</h3>
+        <p class="thumbSummary">...</p>
+        <p><a href="#" class="btn btn-success" role="button"><img src="./assets/images/github-logo.png"></a> </p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!--end of thumbnails-->
+
+<hr>
+
+<!--start of contact page-->
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12">
+			 <h2>Contact</h2>
+			 <ul>
+			 	<li>Manhattan, NYC</li>
+			 	<li><em>jaultz@gmail.com</em></li>
+			 	<li><strong>(512)</strong> 800 5632</li>
+			 	<li>Githublink</li>
+
+			 </ul>
+
+		</div>
+		
+	</div>
+
+</div>
+<video autoplay loop id="video-background" muted plays-inline>
+  <source src="https://player.vimeo.com/external/158148793.hd.mp4?s=8e8741dbee251d5c35a759718d4b0976fbf38b6f&profile_id=119&oauth2_token_id=57447761" type="video/mp4">
+</video>
+
+
+
+
+
+</body>
+</html>
